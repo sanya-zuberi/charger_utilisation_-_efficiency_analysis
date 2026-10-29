@@ -10,7 +10,7 @@ Is the charging network the right size? This project measures utilisation and id
 
 ```
 ├── notebooks/        → full analysis notebook
-├── output/           → CSV outputs and a figures/ folder with the chart images
+├── output/           → CSV outputs 
 ├── dashboard/        → Power BI .pbix file + page screenshots
 ├── slides/           → presentation deck (PPTX)
 └── documentation/    → project documentation and executive summary (PDF)
@@ -26,7 +26,6 @@ Output files (in `output/`):
 - `utilisation_station_by_hour.csv`: station × hour-of-day utilisation (the station heatmap data)
 - `utilisation_network_weekday_hour.csv`: network utilisation by weekday and hour
 - `network_load_by_hour_2024.csv`: average network load (kW) by hour of day, weekday vs weekend
-- `figures/`: the heatmaps and charts as PNG images
 
 ## How Utilisation Was Measured
 
